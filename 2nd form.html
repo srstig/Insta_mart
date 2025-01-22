@@ -20,10 +20,11 @@
 
     #left{
       background-color: deepskyblue;
-      padding-top: 50px;
       text-align: center;
       color: white;
       width: 50%;
+     display: grid;
+      place-content: center;
     }
 
     #right{
@@ -58,6 +59,7 @@
      margin-left: 100px;
     border-radius: 2px;
     background-color: lightgrey;
+    padding-left: 25px;
 
   }
 
@@ -65,13 +67,15 @@
     font-weight: bolder;
     text-align: center;
     font-size: 45px;
-  }
-
-  p{
-    margin-left: 100px;
+    margin-top:50px ;
   }
 
 
+
+   h1{
+     font-weight: bold;
+     font-size: 40px;
+   }
 
   </style>
 
@@ -94,7 +98,7 @@
     <form action="">
       <legend>Contact</legend>
       <br>
-      <p>*Required</p><br>
+      <p style="padding-left: 100px">*Required</p>
       <input type="text" placeholder="Name *" required="required">
       <br><br>
 
@@ -107,7 +111,7 @@
       <input type="tel" placeholder="Phone">
       <br><br>
 
-      <textarea name="" id="" cols="60" rows="10" placeholder="Message"></textarea>
+      <textarea name="" id="" cols="50" rows="8" placeholder="Message"></textarea>
       <br><br>
 
       <button>SUBMIT</button>
