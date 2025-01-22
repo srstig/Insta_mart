@@ -1,0 +1,138 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Form</title>
+
+
+  <style>
+    body{
+      background-color: mediumpurple;
+    }
+    #main{
+      display: flex;
+      margin: 30px;
+      border-radius: 20px;
+    }
+
+    #left{
+      background-color: deepskyblue;
+      padding-top: 50px;
+      text-align: center;
+      color: white;
+      width: 50%;
+    }
+
+    #right{
+      background-color: white;
+      width: 50%;
+    }
+
+
+  button{
+    background-color: deepskyblue;
+    width: 35%;
+    height: 40px;
+    border-radius: 25px;
+    display: block;
+    margin: 0 auto;
+    color: white;}
+
+
+
+  input[type=text],input[type=email],input[type=tel]{
+    padding-left: 25px;
+    width: 60%;
+    height: 40px;
+    margin-left: 100px;
+    border-radius: 2px;
+    background-color: lightgrey;
+
+
+  }
+
+  textarea{
+     margin-left: 100px;
+    border-radius: 2px;
+    background-color: lightgrey;
+
+  }
+
+  legend{
+    font-weight: bolder;
+    text-align: center;
+    font-size: 45px;
+  }
+
+  p{
+    margin-left: 100px;
+  }
+
+
+
+  </style>
+
+
+
+
+
+</head>
+<body>
+
+<div id="main">
+  <div id="left">
+  <h1>Let's Chat</h1>
+    <p>Whether you have a question, want to <br>start a project or simply want to connect.</p>
+    <p>Feel free to send me a message in the <br> contact form.</p>
+
+  </div>
+
+  <div id="right">
+    <form action="">
+      <legend>Contact</legend>
+      <br>
+      <p>*Required</p><br>
+      <input type="text" placeholder="Name *" required="required">
+      <br><br>
+
+      <input type="email" placeholder="Email *" required="required">
+      <br><br>
+
+      <input type="text" placeholder="Company">
+      <br><br>
+
+      <input type="tel" placeholder="Phone">
+      <br><br>
+
+      <textarea name="" id="" cols="60" rows="10" placeholder="Message"></textarea>
+      <br><br>
+
+      <button>SUBMIT</button>
+
+
+
+
+    </form>
+
+
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+</div>
+
+</body>
+</html>
